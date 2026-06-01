@@ -162,6 +162,14 @@ Execute automated tests:
 ```bash
 python -m pytest tests/test_api.py
 ```
+## Sample Outputs
+
+Example API responses, pipeline execution screenshots and test results are available under:
+
+docs/screenshots/
+
+The repository intentionally excludes CCTV footage, model weights and POS datasets as required by the challenge guidelines.
+
 
 Current status:
 
