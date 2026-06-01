@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  store-intelligence-api:
+    build: .
+    container_name: store-intelligence-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./store_intelligence.db:/app/store_intelligence.db
+    restart: unless-stopped

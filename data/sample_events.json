@@ -1,0 +1,52 @@
+[
+  {
+    "store_id": "STORE_001",
+    "camera_id": "CAM_ENTRY",
+    "visitor_id": "VISITOR_001",
+    "event_type": "ENTRY",
+    "timestamp": "2026-05-30T12:00:00",
+    "zone_id": null,
+    "dwell_ms": null,
+    "is_staff": false,
+    "confidence": 0.95,
+    "metadata": {}
+  },
+  {
+    "store_id": "STORE_001",
+    "camera_id": "CAM_MAIN",
+    "visitor_id": "VISITOR_001",
+    "event_type": "ZONE_ENTER",
+    "timestamp": "2026-05-30T12:02:00",
+    "zone_id": "SKINCARE",
+    "dwell_ms": null,
+    "is_staff": false,
+    "confidence": 0.91,
+    "metadata": {}
+  },
+  {
+    "store_id": "STORE_001",
+    "camera_id": "CAM_MAIN",
+    "visitor_id": "VISITOR_001",
+    "event_type": "ZONE_DWELL",
+    "timestamp": "2026-05-30T12:05:00",
+    "zone_id": "SKINCARE",
+    "dwell_ms": 180000,
+    "is_staff": false,
+    "confidence": 0.88,
+    "metadata": {}
+  },
+  {
+    "store_id": "STORE_001",
+    "camera_id": "CAM_BILLING",
+    "visitor_id": "VISITOR_001",
+    "event_type": "BILLING_QUEUE_JOIN",
+    "timestamp": "2026-05-30T12:08:00",
+    "zone_id": "BILLING",
+    "dwell_ms": null,
+    "is_staff": false,
+    "confidence": 0.89,
+    "metadata": {
+      "queue_depth": 6
+    }
+  }
+]

@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+*.db
+*.sqlite
+.env
+.vscode/
+yolov8n.pt
+runs/
+data/generated_events.json
+data/CCTV/
+*.mp4
+data/pos_transactions.csv
+store_intelligence.db
